@@ -297,6 +297,9 @@ background: url("images/topbar.png")no-repeat -226px 0;
 .bg8{
     background: black;
 }
+#back{
+    position: relative;
+}
 .back .backM{
     position: relative;
 }
@@ -320,10 +323,10 @@ background: url("images/topbar.png")no-repeat -226px 0;
     width: 254px;
     height: 336px;
     background: url("images/do111.png")no-repeat 0  0;
-    float: left;
-    position: absolute;
-    top: 0;
-    right: 459px;
+    float: right;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 459px;*/
 }
 .back a i{
     width: 215px;
@@ -340,7 +343,7 @@ background: url("images/topbar.png")no-repeat -226px 0;
 .back ul{
     position: absolute;
     top:310px;
-    left: 663px;
+    left: 250px;
     z-index: 10;
 }
 .back ul li{
@@ -365,14 +368,14 @@ background: url("images/topbar.png")no-repeat -226px 0;
 
 }
 .back .s1{
-    left: 415px;
+    left: 12px;
 }
 .back .s1:hover{
     background-position: 0 -433px;
     cursor: pointer;
 }
 .back .s2{
-    right: 415px;
+    right: 256px;
     background-position: 0 -508px;
 }
 .back .s2:hover{
