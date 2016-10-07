@@ -28,7 +28,7 @@
     var step=0;
     var timer=null;
     clearInterval(timer);
-    timer=setInterval(autoMove,1000);
+    timer=setInterval(autoMove,3000);
     function autoMove(){
         if(step>=aDiv.length-1){
             step=-1;

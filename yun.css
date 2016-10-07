@@ -272,6 +272,7 @@ background: url("images/topbar.png")no-repeat -226px 0;
     position: relative;
     height: 336px;
     overflow: hidden;
+    background: -webkit-linear-gradient(left,#333333,black);;
 }
 .bg1{
     background: -webkit-linear-gradient(top,#e5adc6,#c25f8b);
